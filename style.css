@@ -1,0 +1,114 @@
+/* Ajuste para compensar o header fixo */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding-top: 70px;
+    background-color: #4b2d77;
+    color: #ffffff;
+    padding-top: 70px; /* Adiciona espaço para compensar o header fixo */
+}
+
+/* Estilo do header */
+#menuGabriella {
+    background-color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra para destacar o header */
+    z-index: 1000; /* Garante que o header fique acima de outros elementos */
+}
+
+#menuGabriella a {
+    color: #4b2d77;
+    font-size: 1.2rem;
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 10px 20px; /* Aumenta a área de clique */
+}
+
+/* Estilizando a imagem de perfil */
+#imagem-gabriella {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+}
+
+td, th {
+    border: 1px solid #c090e7;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    text-align: center;
+}
+
+#endereco {
+    background-color: #4b2d77;
+    padding: 30px;
+    text-align: center;
+}
+
+#endereco h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.tecnologias {
+    background-color: #F3E5F5;
+    color: #6A1B9A;
+}
+
+.tecnologias .card {
+    background-color: #E1BEE7 ;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.tecnologias .card:hover {
+    transform: scale(1.05);
+}
+
+.tecnologias .card img {
+    margin-bottom: 15px;
+}
+
+.tecnologias h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.tecnologias p {
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+.form-container {
+    max-width: 700px; /* Define a largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário na página */
+    padding: 20px; /* Adiciona preenchimento interno */
+    border-radius: 5px; /* Cantos arredondados */
+    background-color: #E1BEE7;
+    color: #000000;
+}
+a {
+    color: white; /* Define a cor do texto dos links como branca */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+#bcgFooter {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
